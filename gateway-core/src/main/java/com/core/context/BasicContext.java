@@ -47,7 +47,7 @@ public class BasicContext implements IContext{
     /**
      * 是否已经释放资源
      */
-    private final AtomicBoolean requestReleased = new AtomicBoolean(false);
+    protected final AtomicBoolean requestReleased = new AtomicBoolean(false);
 
     /**
      * 存放回调函数的集合
